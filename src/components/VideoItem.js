@@ -7,6 +7,7 @@ function VideoItem({ video, onVideoSelect }) {
       <ReactHoverVideo
         videoSrc={video.url}
         muted={true}
+        restartOnPaused
         className="video-item-hover"
         hovertargetclassname="video-item-hover"
       />
