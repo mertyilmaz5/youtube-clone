@@ -33,12 +33,15 @@
   display: flex;
 }
 
+/* VideoList */
 .video-list {
   display: flex;
   padding: 30px;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+/* VideoItem */
 
 .video-item {
   width: 400px;
@@ -63,7 +66,7 @@
   cursor: pointer;
 }
 
-/* VideoPlayer için stiller */
+/* VideoPlayer */
 .video-player-overlay {
   position: fixed;
   top: 0;
